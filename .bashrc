@@ -128,6 +128,11 @@ bash ~/scripts/aliases.sh
 
 eval "$(thefuck --alias)"
 
+export PATH="/home/shkoki/bin:$PATH"
 
 eval "$(oh-my-posh init bash --config ~/.json.omp.json)"
 export GIT_EDITOR=vim
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
+
